@@ -43,7 +43,7 @@ var geoControl = new mapboxgl.GeolocateControl({
 map.addControl(geoControl, 'top-right')
 
 map.addControl(new mapboxgl.AttributionControl({
-    compact: false,
+    compact: true,
     customAttribution: '<a href="https://github.com/ruizdurazo/schweiz-schwarz-weiss" target="_blank">© Enrique Ruiz Durazo</a>'
 }))
 
