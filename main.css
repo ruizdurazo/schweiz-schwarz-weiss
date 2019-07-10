@@ -1,0 +1,71 @@
+/* 
+ * Enrique Ruiz Durazo
+ * 2019
+ */
+
+/* Variables */
+:root {
+  /* --font-inter: 'Inter', sans-serif; */
+  /* --font-charter: 'Charter', serif; */
+  --font-size: 20px;
+  /* --max-font-size: 20; */
+  /* --min-font-size: 16; */
+  /* --max-width: 1200px; */
+  /* --min-width: 320px; */
+  /* --grid-unit: 112px; */
+  /* --offset: 80; */
+  /* --blue: #0f4fff; */
+}
+  
+/* Defaults */
+* {
+  scroll-behavior: smooth;
+  /* font-family: var(--font-inter); */
+  /* font-size: var(--font-size); */
+  color: #202020;
+  padding: 0;
+  margin: 0;
+  /* background-color: none; */
+  /* text-decoration: none; */
+  outline: none;
+  /* list-style: none; */
+  /* letter-spacing: .01em; */
+}
+
+/* Selection */
+::selection {
+  color: #fff;
+  background: #202020;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #202020;
+}
+
+/* html, body {
+  padding: 0;
+  margin: 0;
+
+} */
+
+/* Map */
+#map {
+  /* padding: 0;
+  margin: 0; */
+
+  /* z-index: -1; */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-attrib {
+  margin: 12px 0 !important;
+}
