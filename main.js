@@ -17,13 +17,14 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/ruizdurazo/cjxtox2zd3sx91cnyrhv79844',
-    center: [8.23, 46.82],
-    zoom: 8,
-    minZoom: 7.5,
-    maxZoom: 15.5,
+    // center: [8.23, 46.82],
+    center: [8.545, 47.365],
+    zoom: 12,
+    minZoom: 5,
+    maxZoom: 15,
     maxBounds: [
-        [5.4, 45.6],
-        [11.1, 48]
+        [5.4, 45.4],
+        [11.1, 48.2]
     ],
     hash: false,
     logoPosition: 'bottom-left',
