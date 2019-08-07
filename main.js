@@ -12,8 +12,7 @@
 // var zoomThManz = 11
 
 // Map    
-mapboxgl.accessToken =
-    'pk.eyJ1IjoicnVpemR1cmF6byIsImEiOiJjanFvcXNkMmowNnB6NDlxcDBwaGQ4ZjEzIn0.H-lM1PHESSmLxzfeJowlOg'
+mapboxgl.accessToken = 'pk.eyJ1IjoicnVpemR1cmF6byIsImEiOiJjanFvcXNkMmowNnB6NDlxcDBwaGQ4ZjEzIn0.H-lM1PHESSmLxzfeJowlOg'
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/ruizdurazo/cjxtox2zd3sx91cnyrhv79844',
