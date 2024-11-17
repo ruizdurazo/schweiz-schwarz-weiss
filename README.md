@@ -1,7 +1,5 @@
 # Schweiz Schwarz-Weiss
 
-### Work in progress...
-
 ![Map of Switzerland](./images/landeskarte.jpg)
 
 ###### English
